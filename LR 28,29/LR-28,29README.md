@@ -34,10 +34,12 @@ public class Button_Script : MonoBehaviour
         ButtonAnimator.SetTrigger("playbt");
     }
 }
+
  
 Был написан скрипт для реализации жизней игрока.
  
 Листинг 28.2 LifeSystem.cs
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
