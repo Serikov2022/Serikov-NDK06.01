@@ -11,9 +11,9 @@
  
 # [![Screenshot-12.png](https://i.postimg.cc/KYQ32SQX/Screenshot-12.png)](https://postimg.cc/VSrkqh34)
  
-     Рисунок 1
+     Рисунок 24.1 - Корректируем спрайт Круга чтобы он был полноценным, после добавляем спрайт линии.
 
-2.	Пишем скрипт на Player
+# 1.Пишем скрипт на Player
 
 В этом скрипте делаем так чтобы после каждого нажатия ЛКМ круг отталкивался и так же при нажатии ЛКМ добавлялось в счетчик кликов
 
@@ -63,7 +63,7 @@ public class Player : MonoBehaviour
 }
 
 
-3.	Пишем скрипт на CameraController
+# 2.Пишем скрипт на CameraController
 
 using System.Collections;
 
@@ -88,15 +88,15 @@ public class CameraController : MonoBehaviour
 }
 
 
-4.	Раставляем линии и делаем коллайдеры на Circle
+2.	Раставляем линии и делаем коллайдеры на Circle
 
 Раставили линии в произвольном порядке и ставим сверху и снизу круга Box Collider и если эти коллайдеры докоснутся до линии, то игра закончится
  
 # [![Screenshot-13.png](https://i.postimg.cc/K8DDRWQf/Screenshot-13.png)](https://postimg.cc/0zrw4cTK)
  
-     Рисунок 2
+     Рисунок 24.2 - Раставляем линии и делаем коллайдеры на Circle
 
-5.	Пишем скрипт на линии
+# 3.Пишем скрипт на линии
 
 using System.Collections;
 
@@ -118,7 +118,7 @@ public class Block : MonoBehaviour
     }
 }
 
-6.	Пишем скрипт на Алмазы 
+# 4.Пишем скрипт на Алмазы 
 
 Делаем так чтобы при косании аламазы собирались и добавлялись к счетчику алмазов
 
@@ -144,7 +144,7 @@ public class Diamond : MonoBehaviour
     }
 }
 
-7.	Пишем скрипт на счет алмазов и кликов
+# 5.Пишем скрипт на счет алмазов и кликов
 
 using System.Collections;
 
@@ -181,7 +181,7 @@ public class ScoreUI : MonoBehaviour
  
 # [![Screenshot-14.png](https://i.postimg.cc/FHp09Lsn/Screenshot-14.png)](https://postimg.cc/xXkX5qmK)
  
-     Рисунок 3
+     Рисунок 24.3
 
 
 
