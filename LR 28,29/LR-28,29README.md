@@ -38,7 +38,7 @@ public class Button_Script : MonoBehaviour
  
 Был написан скрипт для реализации жизней игрока.
  
-Листинг 28.2 LifeSystem.cs
+# Листинг 28.2 LifeSystem.cs
 
 using System.Collections;
 
@@ -111,7 +111,7 @@ public class LifeSystem : MonoBehaviour
  
 Был написан скрипт для подсчёта очков и изменения лучшего счёта.
  
-Листинг 28.3 ScoreScript.cs
+# Листинг 28.3 ScoreScript.cs
 
 using System.Collections;
 
@@ -143,7 +143,7 @@ public class ScoreScript : MonoBehaviour
                                                
 Был написан скрипт, отвечающий за уничтожение врагов, их распознование
                                                
-Листинг 28.4 Ant_Script.cs
+# Листинг 28.4 Ant_Script.cs
 
 using System.Collections;
 
@@ -224,7 +224,7 @@ public class Ant_Script : MonoBehaviour
  
 Был написан скрипт для управления UI игрока, управления паузой и спавнерами противников, а так же было реализовано поражение игрока.
  
-Листинг 28.5 GameManager.cs
+# Листинг 28.5 GameManager.cs
  
 using System.Collections;
 
@@ -317,7 +317,7 @@ public class GameManager : MonoBehaviour
  
 Был написан скрипт, который отвечает за функционирование спавнеров противников и дополнительных жизней игрока.
  
-Листинг 28.6 Spawner.cs
+# Листинг 28.6 Spawner.cs
  
 using System.Collections;
 using System.Collections.Generic;
