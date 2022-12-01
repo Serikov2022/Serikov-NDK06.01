@@ -7,16 +7,23 @@
 Название работы: разработка игры 2 CARS
 
 1.Визуализация аспектов игры
-  [![Screenshot-3.png](https://i.postimg.cc/rmY45N2D/Screenshot-3.png)](https://postimg.cc/S2Cjh8s4)
-Рисунок 1
+
+ # [![Screenshot-3.png](https://i.postimg.cc/rmY45N2D/Screenshot-3.png)](https://postimg.cc/S2Cjh8s4)
+  
+          Рисунок 1
 
 2. Скрипт Car
+
 using System.Collections;
+
 using System.Collections.Generic;
+
 using UnityEngine;
 
 public class Car : MonoBehaviour
+
 {
+
     public bool FirstLaneBlueCar, FirstLaneOrangeCar;
     public bool BlueCar;
     public Vector2 Xpos;
@@ -90,12 +97,17 @@ public class Car : MonoBehaviour
 }
 
 3. Скрипт CircleSquareGo
+
 using System.Collections;
+
 using System.Collections.Generic;
+
 using UnityEngine;
 
 public class CircleSquareGo : MonoBehaviour
+
 {
+
     int speed;
     Rigidbody2D rgbd;
     void Start()
@@ -104,18 +116,22 @@ public class CircleSquareGo : MonoBehaviour
         rgbd = GetComponent<Rigidbody2D>();
         rgbd.velocity = new Vector2(0, -speed);
     }
-
-    
 }
+    
+
 
 
 
  4. Скрипт EdgeCollider
+ 
 using System.Collections;
+
 using System.Collections.Generic;
+
 using UnityEngine;
 
 public class EdgeCollider : MonoBehaviour
+
 {
 
     public void OnTriggerEnter2D(Collider2D collision)
@@ -136,15 +152,22 @@ public class EdgeCollider : MonoBehaviour
 
 
 5. Скрипт GameController
+
 using System.Collections;
+
 using System.Collections.Generic;
+
 using UnityEngine;
+
 using UnityEngine.UI;
+
 using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
+
 {
     //Circle And Square GO
+    
     public GameObject[] BlueGO;
     public GameObject[] OrangeGO;
     // To instantiate squate and circle
