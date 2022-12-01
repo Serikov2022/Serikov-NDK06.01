@@ -1,9 +1,9 @@
 
-Выполнил: Комлев Д.А.
+Выполнил: Сериков Д.А.
 
 Группа: ЭВТ-70
 
-Игровой движок: Unity 2022.1.23
+Игровой движок: Unity 2021.3.9F1
 
 Название работы: Разработка проекта Timer
 
@@ -14,17 +14,27 @@
 Рисунок 1
 
 ⦁	Скрипт Timer
+
 Код функционирования таймера.
+
 using System.Collections;
+
 using System.Collections.Generic;
+
 using UnityEngine;
+
 using UnityEngine.UI;
+
 using UnityEngine.Events;
 
 public class Timer : MonoBehaviour
+
 {
+
     [Header("Timer UI references :")]
+    
     [SerializeField] private Image uiFillImage;
+    
     [SerializeField] private Text uiText;
 
     public int Duration { get; private set; }
@@ -34,32 +44,47 @@ public class Timer : MonoBehaviour
     private int remainingDuration;
 
     private UnityAction onTimerBeginAction;
+    
     private UnityAction<int> onTimerChangeAction;
+    
     private UnityAction onTimerEndAction;
+    
     private UnityAction<bool> onTimerPauseAction;
 
     private void Awake()
+    
     {
+    
         ResetTimer();
+        
     }
 
     private void ResetTimer()
+    
     {
+    
         uiText.text = "00:00";
+        
         uiFillImage.fillAmount = 0f;
 
         Duration = remainingDuration = 0;
 
         onTimerBeginAction = null;
+        
         onTimerChangeAction = null;
+        
         onTimerEndAction = null;
+        
         onTimerPauseAction = null;
 
         IsPaused = false;
+        
     }
 
     public void SetPaused (bool paused)
+    
     {
+    
         IsPaused = paused;
 
         if (onTimerPauseAction != null)
