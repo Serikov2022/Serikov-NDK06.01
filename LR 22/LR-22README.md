@@ -14,7 +14,7 @@
 
  # [![Screenshot-7.png](https://i.postimg.cc/htxkJK7m/Screenshot-7.png)](https://postimg.cc/DSvjHk6f)
  
-     Рисунок 1 
+     Рисунок 22.1 - Используя редактор срезов получаю несколько спрайтов игрока.
 
 2. Размещение игрока и фона на сцене.
 
@@ -22,17 +22,17 @@
 
 # [![Screenshot-8.png](https://i.postimg.cc/TwkF8wBz/Screenshot-8.png)](https://postimg.cc/zbg0KJz7)
  
-     Рисунок 2 
+     Рисунок 22.2 - Размещение игрока и фона на сцене.
 
 # [![Screenshot-9.png](https://i.postimg.cc/Prvccdy7/Screenshot-9.png)](https://postimg.cc/fJZBSn67)
  
-     Рисунок 3 
+     Рисунок 22.3 - Размещение игрока и фона на сцене.
 
 # [![Screenshot-10.png](https://i.postimg.cc/YCcVBTyC/Screenshot-10.png)](https://postimg.cc/jLXvz3bp)
  
-     Рисунок 4 
+     Рисунок 22.4 - Размещение игрока и фона на сцене.
 
-3. Скрипт Player
+# 1.Скрипт Player
 
 Создание скрипта передвижения игроков.
 
@@ -122,7 +122,7 @@ public class Player : MonoBehaviour
     }
 }
 
-4. Скрипт Spike
+# 2.Скрипт Spike
 
 Создание скрипта передвижения препятствий. 
 
@@ -174,7 +174,7 @@ public class Spike : MonoBehaviour
     }
 }
 
-5. Скрипт  Collider и ClickChecke
+# 3.Скрипт  Collider и ClickChecke
 
 Создание скрипта смены анимации игрока при переходе на другую сторону в игре.
 
@@ -242,4 +242,4 @@ public class ClickChecker : MonoBehaviour
 }
 
 # [![Screenshot-11.png](https://i.postimg.cc/L51czS0G/Screenshot-11.png)](https://postimg.cc/RJvpBkmT)
-     Рисунок 5
+     Рисунок 22.5
