@@ -8,31 +8,27 @@
 
 1.  Компоненты программы
 
-[![Screenshot-4.png](https://i.postimg.cc/MG6935gV/Screenshot-4.png)](https://postimg.cc/MnL0v76p)
+# [![Screenshot-4.png](https://i.postimg.cc/MG6935gV/Screenshot-4.png)](https://postimg.cc/MnL0v76p)
 
-Рисунок 1
+        Рисунок 1
 
 2.  Префаб лазера
 
-![Screenshot_1](https://user-images.githubusercontent.com/119409903/205104023-88dacf51-41d6-4c86-8ad8-c6bbee4d21b7.png)
+# ![Screenshot_1](https://user-images.githubusercontent.com/119409903/205104023-88dacf51-41d6-4c86-8ad8-c6bbee4d21b7.png)
 
-Рисунок 2
+        Рисунок 2
 
 3.  Префаб противника
 
+# ![Screenshot_2](https://user-images.githubusercontent.com/119409903/205106643-72364cdf-2cc1-46dd-a189-10f530d08b74.png)
 
-![Screenshot_2](https://user-images.githubusercontent.com/119409903/205106643-72364cdf-2cc1-46dd-a189-10f530d08b74.png)
-
-
-Рисунок 3
+        Рисунок 3
 
 1.  Префаб игрока
 
+#![Screenshot_5](https://user-images.githubusercontent.com/119409903/205106808-3561d055-dd75-4a72-99ea-d77b8cb00a1f.png)
 
-![Screenshot_5](https://user-images.githubusercontent.com/119409903/205106808-3561d055-dd75-4a72-99ea-d77b8cb00a1f.png)
-
-
-Рисунок 4
+        Рисунок 4
 
 1.  Скрипт CameraFollow
 
