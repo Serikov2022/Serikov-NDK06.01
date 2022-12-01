@@ -11,6 +11,8 @@
 
 Было создано несколько моделей разных таймеров.
  
+[![image.png](https://i.postimg.cc/QMDfXYgc/image.png)](https://postimg.cc/v4PrhzNm) 
+ 
 Рисунок 1
 
 ⦁	Скрипт Timer
