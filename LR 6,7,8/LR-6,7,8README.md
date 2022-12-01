@@ -1,23 +1,27 @@
-Выполнил: Комлев Д.А.
+Выполнил: Сериков Д.А.
 
 Группа: ЭВТ-70
 
-Игровой движок: Unity 2022.1.23
+Игровой движок: Unity 2021.3.9F1
 
 Название работы: Разработка игры симулятора фермы
 
 ⦁	Экспортим подготовленные спрайты одной картинкой в наш созданный проект.
  
 Рисунок 1 
+
 ![рис1](https://user-images.githubusercontent.com/119409903/205114207-86dd6060-aedc-4b72-8ebc-57376245d1f2.png)
 
 ⦁	После спрайтов приступим к созданию первого и самого главного префаба (Plot)
  
 Рисунок 2
+
 ![Screenshot_6](https://user-images.githubusercontent.com/119409903/205114283-45a70b8a-3771-4bd5-bc19-c1d633fcc908.png)
 
 ⦁	Скрипт Plot Manager
+
 Для начала добавим на него Polygon Collider2D и Rigidbody2D, После напишем скрипт на взаимодействие с растениями 
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -147,9 +151,11 @@ public class PlotManager : MonoBehaviour
 ⦁	Далее настроили возможность построить из наших блоков земли всевозможные плантации и формы по соображению игроков. Также написали скрипт на изометрию блоков.
  
 Рисунок 3 
+
 ![Screenshot_1](https://user-images.githubusercontent.com/119409903/205114371-3cc7962c-5be5-4762-bbba-5cb37ad63762.png)
 
 ⦁	Скрипт Palette
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -165,9 +171,11 @@ public class IsometricZ : MonoBehaviour
 ⦁	После приступили к созданию дальнейшего интерфейса и магазина.
 
  Рисунок 4
+ 
  ![Screenshot_2](https://user-images.githubusercontent.com/119409903/205114400-c99b0a0e-6bd3-4c53-8264-fbee3a87441e.png)
 
 ⦁	Скрипт StoreManager
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -308,6 +316,7 @@ public class FarmManager : MonoBehaviour
 }
 
 ⦁	Сохраняем игру в exe
+ 
  ![Screenshot_3](https://user-images.githubusercontent.com/119409903/205114425-d25a8fb4-d056-422d-8ebe-d80848aaa2bd.png)
 
 Рисунок 5
