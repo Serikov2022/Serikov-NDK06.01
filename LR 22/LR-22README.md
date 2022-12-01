@@ -12,34 +12,40 @@
 
 Используя редактор срезов получаю несколько спрайтов игрока.
 
- [![Screenshot-7.png](https://i.postimg.cc/htxkJK7m/Screenshot-7.png)](https://postimg.cc/DSvjHk6f)
+ # [![Screenshot-7.png](https://i.postimg.cc/htxkJK7m/Screenshot-7.png)](https://postimg.cc/DSvjHk6f)
  
-Рисунок 1 
+     Рисунок 1 
 
 2. Размещение игрока и фона на сцене.
 
 Создаю объект Player и к нему объект Sprite, добавляю спрайт самого игрока 
 
- [![Screenshot-8.png](https://i.postimg.cc/TwkF8wBz/Screenshot-8.png)](https://postimg.cc/zbg0KJz7)
+# [![Screenshot-8.png](https://i.postimg.cc/TwkF8wBz/Screenshot-8.png)](https://postimg.cc/zbg0KJz7)
  
-Рисунок 2 
+     Рисунок 2 
 
- [![Screenshot-9.png](https://i.postimg.cc/Prvccdy7/Screenshot-9.png)](https://postimg.cc/fJZBSn67)
+# [![Screenshot-9.png](https://i.postimg.cc/Prvccdy7/Screenshot-9.png)](https://postimg.cc/fJZBSn67)
  
-Рисунок 3 
+     Рисунок 3 
 
-[![Screenshot-10.png](https://i.postimg.cc/YCcVBTyC/Screenshot-10.png)](https://postimg.cc/jLXvz3bp)
+# [![Screenshot-10.png](https://i.postimg.cc/YCcVBTyC/Screenshot-10.png)](https://postimg.cc/jLXvz3bp)
  
-Рисунок 4 
+     Рисунок 4 
 
 3. Скрипт Player
+
 Создание скрипта передвижения игроков.
+
 using System.Collections;
+
 using System.Collections.Generic;
+
 using UnityEngine;
 
 public class Player : MonoBehaviour
+
 {
+
     public Vector2 xValue;
     public bool changeDirecionBool, leftFacing, changeIt, easing;
 
@@ -117,13 +123,19 @@ public class Player : MonoBehaviour
 }
 
 4. Скрипт Spike
+
 Создание скрипта передвижения препятствий. 
+
 using System.Collections;
+
 using System.Collections.Generic;
+
 using UnityEngine;
 
 public class Spike : MonoBehaviour
+
 {
+
     public float moveSpeed;
     public Vector2 minMaxValue;
     Vector2 pos;
@@ -163,6 +175,7 @@ public class Spike : MonoBehaviour
 }
 
 5. Скрипт  Collider и ClickChecke
+
 Создание скрипта смены анимации игрока при переходе на другую сторону в игре.
 
 Collider:
@@ -170,6 +183,7 @@ Collider:
 using UnityEngine;
 
 public class Collider : MonoBehaviour
+
 {
     public Transform PlayerTransform;
 
@@ -184,13 +198,17 @@ public class Collider : MonoBehaviour
 ClickChecker:
 
 using System.Collections;
+
 using System.Collections.Generic;
+
 using UnityEngine;
 
 public class ClickChecker : MonoBehaviour
+
 {
     // Start is called before the first frame update
     void Start()
+    
     {
         
     }
@@ -223,5 +241,5 @@ public class ClickChecker : MonoBehaviour
     }
 }
 
- [![Screenshot-11.png](https://i.postimg.cc/L51czS0G/Screenshot-11.png)](https://postimg.cc/RJvpBkmT)
-Рисунок 5
+# [![Screenshot-11.png](https://i.postimg.cc/L51czS0G/Screenshot-11.png)](https://postimg.cc/RJvpBkmT)
+     Рисунок 5
