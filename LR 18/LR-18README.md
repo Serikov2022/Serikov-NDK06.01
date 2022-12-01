@@ -7,15 +7,23 @@
 Название работы: Разработка игры Snake 
 
 1.Настройка объектов
-[![Screenshot-1.png](https://i.postimg.cc/tC6qzNGL/Screenshot-1.png)](https://postimg.cc/KRZhGLzN)
-Рисунок 1
- [![Screenshot-2.png](https://i.postimg.cc/KcwcLswP/Screenshot-2.png)](https://postimg.cc/qgcdHQkq)
-Рисунок 2
+
+# [![Screenshot-1.png](https://i.postimg.cc/tC6qzNGL/Screenshot-1.png)](https://postimg.cc/KRZhGLzN)
+
+     Рисунок 1
+
+# [![Screenshot-2.png](https://i.postimg.cc/KcwcLswP/Screenshot-2.png)](https://postimg.cc/qgcdHQkq)
+ 
+     Рисунок 2
+
 2. Скрипт Food
+
 using UnityEngine
 
 public class Food : MonoBehaviour
+
 {
+
     public BoxCollider2D gridArea;
 
     private void Start()
@@ -41,13 +49,19 @@ public class Food : MonoBehaviour
         }
     }
 }
+
 3. Скрипт Snake
+
 using System.Collections;
+
 using System.Collections.Generic;
+
 using UnityEngine;
 
 public class Snake : MonoBehaviour
+
 {
+
     private Vector2 _direction = Vector2.right;
 
     private List<Transform> _segments = new List<Transform>();
