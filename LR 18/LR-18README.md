@@ -10,13 +10,13 @@
 
 # [![Screenshot-1.png](https://i.postimg.cc/tC6qzNGL/Screenshot-1.png)](https://postimg.cc/KRZhGLzN)
 
-     Рисунок 1
+     Рисунок 18.1 - Настройка объектов
 
 # [![Screenshot-2.png](https://i.postimg.cc/KcwcLswP/Screenshot-2.png)](https://postimg.cc/qgcdHQkq)
  
-     Рисунок 2
+     Рисунок 18.2 - Настройка объектов
 
-2. Скрипт Food
+# 2.Скрипт Food
 
 using UnityEngine
 
@@ -50,7 +50,7 @@ public class Food : MonoBehaviour
     }
 }
 
-3. Скрипт Snake
+# 3.Скрипт Snake
 
 using System.Collections;
 
