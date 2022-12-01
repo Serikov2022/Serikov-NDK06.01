@@ -168,13 +168,19 @@ public class Timer : MonoBehaviour
 }
 
 ⦁	Скрипт Demo
+
 Скрипт для управления таймера.
+
 using System.Collections;
+
 using System.Collections.Generic;
+
 using UnityEngine;
 
 public class Demo : MonoBehaviour
+
 {
+
     [SerializeField] Timer timer1;
     [SerializeField] Timer timer2;
     [SerializeField] Timer timer3;
