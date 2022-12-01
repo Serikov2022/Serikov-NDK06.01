@@ -10,9 +10,9 @@
 
  # [![Screenshot-3.png](https://i.postimg.cc/rmY45N2D/Screenshot-3.png)](https://postimg.cc/S2Cjh8s4)
   
-          Рисунок 1
+          Рисунок 21.1 - Визуализация аспектов игры
 
-2. Скрипт Car
+# 1.Скрипт Car
 
 using System.Collections;
 
@@ -96,7 +96,7 @@ public class Car : MonoBehaviour
     }
 }
 
-3. Скрипт CircleSquareGo
+# 2.Скрипт CircleSquareGo
 
 using System.Collections;
 
@@ -122,7 +122,7 @@ public class CircleSquareGo : MonoBehaviour
 
 
 
- 4. Скрипт EdgeCollider
+# 3.Скрипт EdgeCollider
  
 using System.Collections;
 
@@ -151,7 +151,7 @@ public class EdgeCollider : MonoBehaviour
 
 
 
-5. Скрипт GameController
+# 4.Скрипт GameController
 
 using System.Collections;
 
