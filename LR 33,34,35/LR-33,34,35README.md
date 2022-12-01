@@ -15,36 +15,36 @@
 
 ⦁	Создал анимации
 
- ![image](https://user-images.githubusercontent.com/119409903/205115136-d7da3d46-f6b5-4d2f-90c9-d404858658d8.png)
+# ![image](https://user-images.githubusercontent.com/119409903/205115136-d7da3d46-f6b5-4d2f-90c9-d404858658d8.png)
  
-Рис. 33.2 Анимации
+     Рис. 33.2 Анимации
 
 ⦁	Создал префабы
 
- ![image](https://user-images.githubusercontent.com/119409903/205116814-b3a92368-1401-432f-920d-f0a95b71868e.png)
+# ![image](https://user-images.githubusercontent.com/119409903/205116814-b3a92368-1401-432f-920d-f0a95b71868e.png)
 
-Рис. 33.2 Префабы
+     Рис. 33.2 Префабы
 
 
 ⦁	Создал 2 сцены
 
 
- ![image](https://user-images.githubusercontent.com/119409903/205116873-98089663-cfc2-4ca8-b50b-a02b825064ef.png)
+# ![image](https://user-images.githubusercontent.com/119409903/205116873-98089663-cfc2-4ca8-b50b-a02b825064ef.png)
  
 
-Рис. 33.2 Сцены
+     Рис. 33.2 Сцены
 
 ⦁	Сцена MainMenu
 
- ![image](https://user-images.githubusercontent.com/119409903/205116943-8876aa3a-d3d5-4860-a0c2-57a8ccdeea4d.png)
+# ![image](https://user-images.githubusercontent.com/119409903/205116943-8876aa3a-d3d5-4860-a0c2-57a8ccdeea4d.png)
 
-Рис. 33.2 Иерархия сцены MainMenu
+     Рис. 33.2 Иерархия сцены MainMenu
 
 ⦁	Сцена Level 01
 
- ![image](https://user-images.githubusercontent.com/119409903/205117058-e5f6cd7b-f063-42ce-b4cc-5e07fae91a8b.png)
+# ![image](https://user-images.githubusercontent.com/119409903/205117058-e5f6cd7b-f063-42ce-b4cc-5e07fae91a8b.png)
 
-Рис. 33.2 Иерархия сцены Level 01
+     Рис. 33.2 Иерархия сцены Level 01
 
 ⦁	Создал скрипт MainMenu, который отвечает за действия при нажатии кнопок в главном меню.
 
@@ -105,7 +105,7 @@ public class CameraFollowPlayer : MonoBehaviour
         }
     }
 }
-
+
 ⦁	Создал скрипт CurrencyPickup, отвечающий за подбор монет и самоцветов игроком.
 
 Листинг CurrencyPickup.cs
