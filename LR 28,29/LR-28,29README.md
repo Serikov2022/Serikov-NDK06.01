@@ -15,13 +15,9 @@
 Листинг 28.1 Button_Script.cs
 
 using System.Collections;
-
 using System.Collections.Generic;
-
 using UnityEngine;
-
 public class Button_Script : MonoBehaviour
-
 {
 
     private Animator ButtonAnimator;
@@ -41,13 +37,9 @@ public class Button_Script : MonoBehaviour
 # Листинг 28.2 LifeSystem.cs
 
 using System.Collections;
-
 using System.Collections.Generic;
-
 using UnityEngine;
-
 public class LifeSystem : MonoBehaviour
-
 {
 
     public GameObject[] lifes;
@@ -114,15 +106,10 @@ public class LifeSystem : MonoBehaviour
 # Листинг 28.3 ScoreScript.cs
 
 using System.Collections;
-
 using System.Collections.Generic;
-
 using UnityEngine;
-
 using TMPro;
-
 public class ScoreScript : MonoBehaviour
-
 {
 
     private TextMeshProUGUI scoreText;
@@ -146,13 +133,9 @@ public class ScoreScript : MonoBehaviour
 # Листинг 28.4 Ant_Script.cs
 
 using System.Collections;
-
 using System.Collections.Generic;
-
 using UnityEngine;
-
 public class Ant_Script : MonoBehaviour
-
 {
 
     private GameObject AliveAnt;
@@ -227,16 +210,12 @@ public class Ant_Script : MonoBehaviour
 # Листинг 28.5 GameManager.cs
  
 using System.Collections;
-
 using System.Collections.Generic;
-
 using UnityEngine;
-
 using TMPro;
 
 
 public class GameManager : MonoBehaviour
-
 {
 
     public TextMeshProUGUI ScoreText, BestScoreText, PlayTimeText;
@@ -325,6 +304,7 @@ using UnityEngine;
 
 public class Spawner : MonoBehaviour
 {
+
     public bool isLife;
     public GameObject[] ants;
     public float minX, maxX, SpawnRate;
