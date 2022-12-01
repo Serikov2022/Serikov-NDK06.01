@@ -10,27 +10,27 @@
 
 # [![Screenshot-4.png](https://i.postimg.cc/MG6935gV/Screenshot-4.png)](https://postimg.cc/MnL0v76p)
 
-        Рисунок 1
+        Рисунок 11.1 - Компоненты программы
 
 2.  Префаб лазера
 
 # ![Screenshot_1](https://user-images.githubusercontent.com/119409903/205104023-88dacf51-41d6-4c86-8ad8-c6bbee4d21b7.png)
 
-        Рисунок 2
+        Рисунок 11.2 - Префаб лазера
 
 3.  Префаб противника
 
 # ![Screenshot_2](https://user-images.githubusercontent.com/119409903/205106643-72364cdf-2cc1-46dd-a189-10f530d08b74.png)
 
-        Рисунок 3
+        Рисунок 11.3 - Префаб противника
 
 1.  Префаб игрока
 
 #![Screenshot_5](https://user-images.githubusercontent.com/119409903/205106808-3561d055-dd75-4a72-99ea-d77b8cb00a1f.png)
 
-        Рисунок 4
+        Рисунок 11.4 - Префаб игрока
 
-1.  Скрипт CameraFollow
+# 1. Скрипт CameraFollow
 
 using System.Collections;
 
@@ -66,7 +66,7 @@ transform.position = targPos;
 
 }
 
-1.  Скрипт DamageByColision
+# 2.Скрипт DamageByColision
 
 using System.Collections;
 
@@ -195,7 +195,8 @@ Destroy(gameObject);
 
 }
 
-1.
+# 3.Скрипт EnemyShooting
+
 using System.Collections;
 
 using System.Collections.Generic;
@@ -250,7 +251,7 @@ bulletGO.layer = bulletLayer;
 
 }
 
-1.  Скрипт EnemySpawner
+# 4.Скрипт EnemySpawner
 
 using System.Collections;
 
@@ -304,7 +305,7 @@ Quaternion.identity);
 
 }
 
-1.  Скрипт FacesPlayer
+# 5.Скрипт FacesPlayer
 
 using System.Collections;
 
@@ -360,7 +361,7 @@ desiredRot, rotSpeed \* Time.deltaTime);
 
 }
 
-1.  Скрипт MoveForward
+# 6.Скрипт MoveForward
 
 using System.Collections;
 
@@ -390,7 +391,7 @@ transform.position = pos;
 
 }
 
-1.  Скрипт PlayerMovement
+# 7.Скрипт PlayerMovement
 
 using System.Collections;
 
@@ -480,7 +481,7 @@ transform.position = pos;
 
 }
 
-1.  Скрипт PlayerShooting
+# 8.Скрипт PlayerShooting
 
 using System.Collections;
 
@@ -536,7 +537,7 @@ bulletGO.layer = gameObject.layer;
 
 }
 
-**Листинг PlayerSpawner**
+# 9.Скрипт PlayerSpawner
 
 using System.Collections;
 
@@ -626,7 +627,7 @@ GUI.Label(new Rect(Screen.width/2 - 50, Screen.height/2 - 25, 100, 50),
 
 }
 
-1.  Скрипт SelfDestruct
+# 10.Скрипт SelfDestruct
 
 using System.Collections;
 
