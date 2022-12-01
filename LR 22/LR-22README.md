@@ -1,22 +1,33 @@
-Выполнил: Комлев Д.А.
+Выполнил: Сериков Д.А.
 
 Группа: ЭВТ-70
 
-Игровой движок: Unity 2022.1.23
+Игровой движок: Unity 2021.3.9F1
 
 Название работы: разработка игры Make Them Fall
 
 1. Импортирование ресурсов в проект.
+
 Создаю папки Scripts, Sprites и импортирую ресурсы для создания игры.
+
 Используя редактор срезов получаю несколько спрайтов игрока.
+
  [![Screenshot-7.png](https://i.postimg.cc/htxkJK7m/Screenshot-7.png)](https://postimg.cc/DSvjHk6f)
+ 
 Рисунок 1 
+
 2. Размещение игрока и фона на сцене.
+
 Создаю объект Player и к нему объект Sprite, добавляю спрайт самого игрока 
+
  [![Screenshot-8.png](https://i.postimg.cc/TwkF8wBz/Screenshot-8.png)](https://postimg.cc/zbg0KJz7)
+ 
 Рисунок 2 
+
  [![Screenshot-9.png](https://i.postimg.cc/Prvccdy7/Screenshot-9.png)](https://postimg.cc/fJZBSn67)
+ 
 Рисунок 3 
+
 [![Screenshot-10.png](https://i.postimg.cc/YCcVBTyC/Screenshot-10.png)](https://postimg.cc/jLXvz3bp)
  
 Рисунок 4 
