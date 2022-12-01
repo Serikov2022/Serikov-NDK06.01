@@ -13,12 +13,17 @@
 Был написан скрипт для анимации кнопок при их нажатии.
 
 Листинг 28.1 Button_Script.cs
+
 using System.Collections;
+
 using System.Collections.Generic;
+
 using UnityEngine;
 
 public class Button_Script : MonoBehaviour
+
 {
+
     private Animator ButtonAnimator;
     void Start()
     {
