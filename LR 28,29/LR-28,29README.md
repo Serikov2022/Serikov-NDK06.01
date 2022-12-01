@@ -41,11 +41,15 @@ public class Button_Script : MonoBehaviour
 Листинг 28.2 LifeSystem.cs
 
 using System.Collections;
+
 using System.Collections.Generic;
+
 using UnityEngine;
 
 public class LifeSystem : MonoBehaviour
+
 {
+
     public GameObject[] lifes;
     public static int lifeCount;
     void Start()
@@ -108,13 +112,19 @@ public class LifeSystem : MonoBehaviour
 Был написан скрипт для подсчёта очков и изменения лучшего счёта.
  
 Листинг 28.3 ScoreScript.cs
+
 using System.Collections;
+
 using System.Collections.Generic;
+
 using UnityEngine;
+
 using TMPro;
 
 public class ScoreScript : MonoBehaviour
+
 {
+
     private TextMeshProUGUI scoreText;
     public static int score = 0;
     void Start()
@@ -134,12 +144,17 @@ public class ScoreScript : MonoBehaviour
 Был написан скрипт, отвечающий за уничтожение врагов, их распознование
                                                
 Листинг 28.4 Ant_Script.cs
+
 using System.Collections;
+
 using System.Collections.Generic;
+
 using UnityEngine;
 
 public class Ant_Script : MonoBehaviour
+
 {
+
     private GameObject AliveAnt;
     private Transform DeadAnt;
     private Transform parent;
@@ -212,12 +227,18 @@ public class Ant_Script : MonoBehaviour
 Листинг 28.5 GameManager.cs
  
 using System.Collections;
+
 using System.Collections.Generic;
+
 using UnityEngine;
+
 using TMPro;
 
+
 public class GameManager : MonoBehaviour
+
 {
+
     public TextMeshProUGUI ScoreText, BestScoreText, PlayTimeText;
     public GameObject GameOverPanel;
     public GameObject[] spawner;
