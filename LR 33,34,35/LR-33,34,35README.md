@@ -1,5 +1,4 @@
-# LR-MDK06.01		
-Выполнил: Комлев Д.А.
+Выполнил: Сериков Д.А.
 
 Группа: ЭВТ-70
 
@@ -46,7 +45,7 @@
 
      Рис. 33.2 Иерархия сцены Level 01
 
-⦁	Создал скрипт MainMenu, который отвечает за действия при нажатии кнопок в главном меню.
+# 1.Создал скрипт MainMenu, который отвечает за действия при нажатии кнопок в главном меню.
 
 Листинг MainMenu.cs
 
@@ -80,7 +79,7 @@ public class MainMenu : MonoBehaviour
     }
 }
 
-⦁	Создал скрипт CameraFollowPlayer, перемещающий камеру за игроком.
+# 2.Создал скрипт CameraFollowPlayer, перемещающий камеру за игроком.
 
 Листинг CameraFollowPlayer.cs
 
@@ -106,7 +105,7 @@ public class CameraFollowPlayer : MonoBehaviour
     }
 }
 
-⦁	Создал скрипт CurrencyPickup, отвечающий за подбор монет и самоцветов игроком.
+# 3.Создал скрипт CurrencyPickup, отвечающий за подбор монет и самоцветов игроком.
 
 Листинг CurrencyPickup.cs
 
@@ -133,7 +132,7 @@ public class CurrencyPickup : MonoBehaviour
     }
 }
 
-⦁	Создал скрипт Enemy, отвечающий за поведение врага при лечении, получении урона и смерти.
+# 4.Создал скрипт Enemy, отвечающий за поведение врага при лечении, получении урона и смерти.
 
 Листинг Enemy.cs
 
@@ -202,7 +201,7 @@ public class Enemy : MonoBehaviour
     }
 }
 
-⦁	Создал скрипт EnemyAttack, ищущий игрока по компоненту.
+# 5.Создал скрипт EnemyAttack, ищущий игрока по компоненту.
 
 Листинг EnemyAttack.cs
 
@@ -218,7 +217,7 @@ public class EnemyAttack : MonoBehaviour
     }
 }
 
-⦁	Создал скрипт TestEnemyShooting, отвечающий за стрельбу врага по игроку.
+# 6.Создал скрипт TestEnemyShooting, отвечающий за стрельбу врага по игроку.
 
 Листинг TestEnemyShooting.cs
 
@@ -268,7 +267,7 @@ public class TestEnemyShooting : EnemyAttack
     }
 }
 
-⦁	Создал скрипт TestEnemyProjectile, наносящий урон игроку при столкновении с ним.
+# 7.Создал скрипт TestEnemyProjectile, наносящий урон игроку при столкновении с ним.
 
 Листинг TestEnemyProjectile.cs
 
@@ -290,7 +289,7 @@ public class TestEnemyProjectile : MonoBehaviour
     }
 }
 
-⦁	Создал скрипт EnemySpawner, создающий врагов в случайной точке сцены.
+# 8.Создал скрипт EnemySpawner, создающий врагов в случайной точке сцены.
 
 Листинг EnemySpawner.cs
 
@@ -331,7 +330,7 @@ public class EnemySpawner : MonoBehaviour
         StartCoroutine(SpawnTestEnemy());
     }
 }
-⦁	Создал скрипт FloatToPlayer, притягивающий предмет к игроку.
+# 9.Создал скрипт FloatToPlayer, притягивающий предмет к игроку.
  
 Листинг FloatToPlayer.cs
  
@@ -356,7 +355,7 @@ public class FloatToPlayer : MonoBehaviour
     }
 }
 
-⦁	Создал скрипт PlayerMovement, отвечающий за передвижение игрока и его анимацию.
+# 10.Создал скрипт PlayerMovement, отвечающий за передвижение игрока и его анимацию.
  
 Листинг PlayerMovement.cs
  
@@ -463,7 +462,7 @@ public class PlayerMovement : MonoBehaviour
     }
 }
 
-⦁	Создал скрипт PlayerStats, содержащий информацию о показателях игрока и их изменение.
+# 11.Создал скрипт PlayerStats, содержащий информацию о показателях игрока и их изменение.
  
 Листинг PlayerStats.cs
  
@@ -575,7 +574,7 @@ public class PlayerStats : MonoBehaviour
     }
 }
 
-⦁	Создал скрипт TestProjectile, отвечающий за нанесение урона врагам при соприкосновении.
+# 12.Создал скрипт TestProjectile, отвечающий за нанесение урона врагам при соприкосновении.
                        
 Листинг TestProjectile.cs
                        
@@ -597,7 +596,7 @@ public class TestProjectile : MonoBehaviour
     }
 }
 
-⦁	Создал скрипт TestSpell, отвечающий за стрельбу игрока снарядами в направлении курсора.
+# 13.Создал скрипт TestSpell, отвечающий за стрельбу игрока снарядами в направлении курсора.
  
 Листинг TestSpell.cs
  
@@ -631,6 +630,7 @@ public class TestSpell : MonoBehaviour
         }
     }
 }
+ 
 ⦁	Вывод
  
 В ходе проделанной работы были приобретены навыки в разработке механики 2D рогалика.
