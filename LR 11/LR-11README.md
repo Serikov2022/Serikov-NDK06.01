@@ -13,7 +13,7 @@
  
 # [![image.png](https://i.postimg.cc/QMDfXYgc/image.png)](https://postimg.cc/v4PrhzNm) 
  
-     Рисунок 11.1
+     Рисунок 11.1 - несколько моделей разных таймеров.
 
 #	Скрипт Timer
 
