@@ -663,4 +663,3 @@ Destroy(gameObject);
 
 Результат работы:
 
-\\![](media/image5.png){width="5.2in" height="2.495651793525809in"}
