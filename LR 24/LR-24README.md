@@ -9,18 +9,24 @@
 1.	Добавляем спрайты
 Корректируем спрайт Круга чтобы он был полноценным, после добавляем спрайт линии.
  
- [![Screenshot-12.png](https://i.postimg.cc/KYQ32SQX/Screenshot-12.png)](https://postimg.cc/VSrkqh34)
+# [![Screenshot-12.png](https://i.postimg.cc/KYQ32SQX/Screenshot-12.png)](https://postimg.cc/VSrkqh34)
  
-Рисунок 1
+     Рисунок 1
 
 2.	Пишем скрипт на Player
+
 В этом скрипте делаем так чтобы после каждого нажатия ЛКМ круг отталкивался и так же при нажатии ЛКМ добавлялось в счетчик кликов
+
 using System.Collections;
+
 using System.Collections.Generic;
+
 using UnityEngine;
 
 public class Player : MonoBehaviour
+
 {
+
     public Vector2 jumpForce;
     Vector2 currentVelocity;
     Rigidbody2D rgbd;
@@ -58,12 +64,17 @@ public class Player : MonoBehaviour
 
 
 3.	Пишем скрипт на CameraController
+
 using System.Collections;
+
 using System.Collections.Generic;
+
 using UnityEngine;
 
 public class CameraController : MonoBehaviour
+
 {
+
     public Transform playerTransform;
     void Start()
     {
@@ -78,19 +89,25 @@ public class CameraController : MonoBehaviour
 
 
 4.	Раставляем линии и делаем коллайдеры на Circle
+
 Раставили линии в произвольном порядке и ставим сверху и снизу круга Box Collider и если эти коллайдеры докоснутся до линии, то игра закончится
  
- [![Screenshot-13.png](https://i.postimg.cc/K8DDRWQf/Screenshot-13.png)](https://postimg.cc/0zrw4cTK)
+# [![Screenshot-13.png](https://i.postimg.cc/K8DDRWQf/Screenshot-13.png)](https://postimg.cc/0zrw4cTK)
  
-Рисунок 2
+     Рисунок 2
 
 5.	Пишем скрипт на линии
+
 using System.Collections;
+
 using System.Collections.Generic;
+
 using UnityEngine;
 
 public class Block : MonoBehaviour
+
 {
+
     public void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.tag == "Player")
@@ -102,13 +119,19 @@ public class Block : MonoBehaviour
 }
 
 6.	Пишем скрипт на Алмазы 
+
 Делаем так чтобы при косании аламазы собирались и добавлялись к счетчику алмазов
+
 using System.Collections;
+
 using System.Collections.Generic;
+
 using UnityEngine;
 
 public class Diamond : MonoBehaviour
+
 {
+
     public void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.tag == "Player")
@@ -120,13 +143,19 @@ public class Diamond : MonoBehaviour
         }
     }
 }
+
 7.	Пишем скрипт на счет алмазов и кликов
+
 using System.Collections;
+
 using System.Collections.Generic;
+
 using UnityEngine;
 
 public class ScoreUI : MonoBehaviour
+
 {
+
     int Score,Diamond;
     public TMPro.TextMeshProUGUI ScoreText;
     public TMPro.TextMeshProUGUI DiamondText;
@@ -150,9 +179,9 @@ public class ScoreUI : MonoBehaviour
     }
 }
  
- [![Screenshot-14.png](https://i.postimg.cc/FHp09Lsn/Screenshot-14.png)](https://postimg.cc/xXkX5qmK)
+# [![Screenshot-14.png](https://i.postimg.cc/FHp09Lsn/Screenshot-14.png)](https://postimg.cc/xXkX5qmK)
  
-Рисунок 3
+     Рисунок 3
 
 
 
